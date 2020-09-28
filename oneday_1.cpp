@@ -23,7 +23,7 @@ int on_line_algorithm(int A[], int n)
     return maxsum;
 }
 
-/* 对分查找 修改完毕
+/* 对分查找 修改完毕 当且仅当为2的幂次可行
 */
 int max3(int a, int b, int c)
 {
