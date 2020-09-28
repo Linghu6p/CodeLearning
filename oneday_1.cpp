@@ -23,7 +23,7 @@ int on_line_algorithm(int A[], int n)
     return maxsum;
 }
 
-/* 对分查找 没写对
+/* 对分查找 修改完毕
 */
 int max3(int a, int b, int c)
 {
@@ -35,7 +35,7 @@ static int MaxSubsuM(const int A[], int Left, int Right)
     int MaxLeftSum, MaxRightSum;
     int MaxLeftBorderSum = 0, MaxRightborderSum = 0;
     int LeftBorderSum = 0, RightBorderSum = 0;
-    if (Left = Right)
+    if (Left == Right)
     {
         if (A[Left] > 0)
         {
