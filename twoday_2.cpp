@@ -71,7 +71,7 @@ void bucket_sort_2_1(int A[], int n, int bit)
         {
             if (count[p][j] == 0)
             {
-                count[p][j] == A[i];
+                count[p][j] = A[i]; //第一次上传错误 误写成 == 这里只是返回了一个bool类型 所以程序错误
                 break;
             }
         }
