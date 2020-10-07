@@ -127,6 +127,4 @@ int main()
     Mid(T2);
     cout << endl;
     Behind(T2);
-    
-    //cout << T1->NextSibling->Element;
 }
